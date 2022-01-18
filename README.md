@@ -10,6 +10,11 @@
   
 [![Run on Repl.it](https://www.linkpicture.com/q/Untitled-3_10.jpg)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
+2.Click [FORK](https://github.com/SPlRlT-YT/spirit/fork)
+
+3. Now https://heroku.com/deploy?template=https://github.com/SPlRlT-YT/spirit-bot copy this url and change SPlRlT-YT with your github username and click GO<br>
+
+### this method not working ⬇️
 [![Deploy](https://www.linkpicture.com/q/heroku.jpg)](https://heroku.com/deploy?template=https://github.com/SPlRlT-YT/spirit-bot.git)
      </div>
 <br>
