@@ -54,7 +54,7 @@ Asena.addCommand({on: 'text', fromMe: false }, (async (message, match) => {
     if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '18052196558@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '16052772640@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/spirit ser.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == '19173834101@s.whatsapp.net') {
@@ -120,7 +120,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if(Config.BGMFILTER){
         let banned = jid.find( Jid => Jid === message.jid);
         if(banned !== undefined) return
-        if (!!message.mention && message.mention[0] == '18052196558@s.whatsapp.net') {
+        if (!!message.mention && message.mention[0] == '16052772640@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/spirit ser.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
         }
         if (!!message.mention && message.mention[0] == '19173834101@s.whatsapp.net') {
