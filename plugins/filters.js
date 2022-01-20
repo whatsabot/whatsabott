@@ -113,7 +113,7 @@ Asena.addCommand({pattern: 'stop ?(.*)', fromMe: true, desc: Lang.STOP_DESC, don
         await message.client.sendMessage(message.jid,Lang.ALREADY_NO_FILTER, MessageType.text)
     } else {
         await message.client.sendMessage(message.jid,Lang.DELETED, MessageType.text)
-    }
+    }udididifiufi
 }));
 Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if(Config.BGMFILTER){
@@ -154,8 +154,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./sticker/spirit.
     if (!!message.mention && message.mention[0] == '919496306657@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./sticker/Raju bhai.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted : message.data, ptt: false})
     }
-const array = ['KING AS','Msd','Vijay','Rashmika','song','Sry','Line','Aarulle','achodaa','ayin','Aysheri','Ayye','Ayyo','broken','bye','chattho','cute','Da','Eee','engane und','Entha','Enthada','Girls','Good morning','Good night','Hi','Hy','ithokke enth','ivan','Kurippe','Kurumb','Love','naanam','nadakkatte','Ok','paavam','Pattumo','Pm','poda','Pova','Save','setth','sho','Shoo','Smile','tag','Udayipp','umma','Vaa','Vannu','yo','ys','Bye','Muthe','Police','Teach','Thech','Z','aayo','alla','anthas','aysheri','bie','bye','chathu','cheyalle','chunk','committed','mama','marichu','mention','mood','muthe','myre','njan','number','ok','oombi','ooo','pedicho','pidi','poweresh','sad','saved','sed','shaad','shut','teach','test','thech','think','thund','umma','uyir','vannu','vibe','z','dead','JulieMwol','Like','pever','sry','night','indo','uff','eh','poyi','scene','killadi','nee alle','sheri','vada','poocha','morning','pm','thund','remove','Sed','araa','madthu','Hlo','air','Bomb','Julie','myr','fan','charge','AS','Raju bha','spirit','menu','Myre','Master mass','Broken sir','Spirit']
-array.map( async (a) => {
+Darray.map( async (a) =>e {dd
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
    await message.client.sendMessage(message.jid, fs.readFileSync('./sticker/' + a + '.webp'), MessageType.sticker, { mimetype: Mimetype.webp, quoted: message.data, ptt: false})
