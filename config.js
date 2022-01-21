@@ -47,7 +47,7 @@ module.exports = {
     DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     BOTSK: process.env.BOT_NAME === undefined ? 'ꪶ͢ɪͥᴛͭsᷤ ͢ᴍͫᴇͤᡃ⃝sᴘɪʀɪᴛ ʙᴏᴛ࿐' : process.env.BOT_NAME,
-    LOGOSK: process.env.ALL_IMG === undefined ? 'https://telegra.ph/file/20efb17e2377f524e7b2c.jpg' : process.env.ALL_IMG,
+    LOGOSK: process.env.ALL_IMG === undefined ? 'https://i.imgur.com/EDaV4za.jpeg' : process.env.ALL_IMG,
     SLINK: process.env.SOCIAL_MEDIA === undefined ? 'https://www.instagram.com/spirit_ser' : process.env.SOCIAL_MEDIA,
     TAGPLK: process.env.TAG_HEADER === undefined ? '*Attention please 📢*' : process.env.TAG_HEADER,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
